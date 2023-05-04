@@ -1,0 +1,33 @@
+body {
+
+  background: -webkit-linear-gradient(90deg, #67cb5b 10%, #95e38f 90%); 
+  background:    -moz-linear-gradient(90deg, #67cb5b 10%, #95e38f  90%); 
+  background:     -ms-linear-gradient(90deg, #67cb5b 10%, #95e38f  90%); 
+  background:      -o-linear-gradient(90deg, #67cb5b 10%, #95e38f  90%); 
+  background:         linear-gradient(90deg, #67cb5b 10%, #95e38f  90%); 
+        
+}
+    
+    .parent2 {
+      position:absolute;
+     display:block;
+      width:50px;
+      height:50px;
+      background-color:transparent;
+      border-radius:50%;
+      z-index:20;
+    }
+    
+    .mask2 {
+      background:#333;
+      border-radius:50%;
+      position:absolute;
+      z-index:21;
+      color:white;
+      text-align:center;
+      cursor:pointer;
+      left: 25px;
+    }
+    .bimage1{
+      background-image: url("../image/insta-logo.png");
+    }
